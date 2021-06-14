@@ -1,0 +1,83 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+header {
+  font-size: 20px;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+.page {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 70%;
+  float: left;
+  border-right: 1px solid black;
+  min-height: 800px;
+}
+.navbar-brad img {
+  width: 100px;
+}
+
+.navbar-nav li {
+  padding-right: 15px;
+}
+.nav-link {
+  color: black;
+  background: white;
+  border: 1px solid black;
+}
+.rightbar {
+  margin-top: 200px;
+  width: 30%;
+  float: left;
+  background: #000;
+  height: 100%;
+}
+.border11 {
+  border: 1px solid black;
+}
+.border12 {
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+}
+footer {
+  width: 100%;
+  height: 10px;
+  background: #000;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 0px;
+}
+footer a {
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+}
+footer nav a:hover {
+  border-bottom: 1px solid white;
+}
+h1 {
+  margin-left: 15px;
+}
+.clearr:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearr {
+  display: inline-block;
+}
+* html .clearr {
+  height: 1%;
+}
+.clearr {
+  display: block;
+}
